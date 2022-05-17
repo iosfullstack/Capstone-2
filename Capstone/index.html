@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome 5 -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Navbar</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="check-btn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Group-30</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="wrapper">
+            <h3>Login</h3>
+            <p>You are welcome back, don't have an account?</p>
+        
+    
+        <form action="">
+            <div class="input-wrapper">
+                <label for="">Username:</label>
+                <input type="text" name="username" class="input">
+            </div>
+    
+            <div class="input-wrapper">
+                <label for="">Email Address:</label>
+                <input type="email" name="email" class="input" placeholder="e.g @johndoe.com">
+            </div>
+    
+            <div class="input-wrapper">
+                <label for="">Phone Number:</label>
+                <input type="tel" name="phone" class="input">
+            </div>
+    
+            <div class="input-wrapper">
+                <label for="">Password:</label>
+                <input type="password" name="pwd" class="input">
+            </div>
+    
+            <div class="input-wrapper">
+                <label for="">Confirm Password:</label>
+                <input type="password" name="pwd" class="input">
+            </div>
+    
+            
+            <div class="input-wrapper">
+                <label for="">Gender:</label><br>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female	
+  
+            </div>
+    
+            <button type="submit">Submit</button>
+        </form>
+        </div> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
